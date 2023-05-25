@@ -1,0 +1,81 @@
+<!-- Feito Por Bruno Wilke -->
+<div>
+  <h1 class="pgColegioH3 p-2 mt-2">Matrícula</h1>
+</div>
+<div class="formContent">
+  <p>
+    O Colégio Stanford está com as portas abertas para receber sua família.<br />
+    Faça já a sua matricula preenchendo esse formulário ou agende uma visita para conhecer nossa proposta pedagógica, infraestrutura e
+    todas as vantagens que só o Colégio Stanford pode oferecer para o seu/sua filho(a).<br />
+    Esperamos a sua família!
+  </p>
+</div>
+  <form class="row g-3 formContent" onsubmit="alert('Matricula Enviada com Sucesso. Você será redirecionado á pagina Inicial')">
+    <div class="col-md-9">
+      <label for="nomeResp" class="form-label">Nome do Responsável*</label>
+      <input type="text" class="form-control" id="nomeResp" required/>
+    </div>
+    <div class="col-md-3">
+      <label for="cpfResp" class="form-label" >CPF do Responsável*</label>
+      <input type="text" class="form-control" id="cpfResp" required/>
+    </div>
+    <div class="col-12">
+      <label for="email" class="form-label">E-mail do Responsável*</label>
+      <input type="email" class="form-control" id="email" required/>
+    </div>
+    <div class="col-6">
+      <label for="telefone" class="form-label"> Telefone do Responsável </label>
+      <input type="text" class="form-control" id="telefone" />
+    </div>
+    <div class="col-6">
+      <label for="celular" class="form-label"> Celular do Responsável* </label>
+      <input type="text" class="form-control" id="celular" required />
+    </div>
+    <div class="col-md-9">
+      <label for="nomeAluno" class="form-label">Nome do Aluno(a)*</label>
+      <input type="text" class="form-control" id="nomeAluno" required/>
+    </div>
+    <div class="col-md-3">
+      <label for="nascimento" class="form-label"
+        >Data de Nascimento*</label
+      >
+      <input type="date" class="form-control" id="nascimento" required/>
+    </div>
+    <div class="col-md-9">
+      <label for="escolaAtual" class="form-label"
+        >Escola em que estuda atualmente</label
+      >
+      <input type="text" class="form-control" id="escolaAtual" />
+    </div>
+    <div class="col-md-9">
+      <label class="form-label"
+        >Ano em que pretende iniciar</label
+      >
+      <select>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+      </select>
+    </div>
+    <div class="col-md-9">
+      <label class="form-label">Turma em que deseja vaga</label>
+      <select>
+        <option value="0">Infantil</option>
+        <option value="1">1º Ano Fundamental</option>
+        <option value="2">2º Ano Fundamental</option>
+        <option value="3">3º Ano Fundamental</option>
+        <option value="4">4º Ano Fundamental</option>
+        <option value="5">5º Ano Fundamental</option>
+        <option value="6">6º Ano Fundamental</option>
+        <option value="7">7º Ano Fundamental</option>
+        <option value="8">8º Ano Fundamental</option>
+        <option value="9">9º Ano Fundamental</option>
+        <option value="10">1ª Série Ensino Médio</option>
+        <option value="11">2ª Série Ensino Médio</option>
+        <option value="12">Terceirão</option>  
+      </select>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn my-button">Enviar</button>
+    </div>
+  </form>

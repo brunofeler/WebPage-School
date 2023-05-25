@@ -1,0 +1,289 @@
+// FEITO POR CAIO NEVES
+
+$white: white;
+$gray: #d9d9d9;
+$blue: #284b63;
+$black: #353535;
+$green: #4c6e71;
+
+// GERAL CUSTOMS
+.btn {
+    background-color: $blue;
+    border: none;
+    text-transform: uppercase;
+}
+.button-pesquisar{
+    background-color: $green;
+    color: $white;
+}
+a{
+    text-decoration: none;
+}
+
+// ----------- STYLE HOME -----------
+
+// NAVBAR ----
+nav {
+    display: auto;
+
+    p{
+        font-size: 30px;
+        padding-top: 20px;    
+        color: $gray;
+        display: inline;
+    }
+
+    .custom-toggler {
+
+        .navbar-toggler-icon {
+            background-image: url(
+                "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(217, 217, 217, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            }
+
+        }
+        .navbar-toggler {
+            border-color: $gray;
+        }
+
+    ul{
+        
+        li{
+            font-size: 20px;
+            margin-left: 20px;
+
+            &:hover{
+                transition: ease .8s;
+                color: $white !important;
+            }   
+            
+            a{
+                color: $gray !important;
+            }
+        }
+    }
+}
+
+// CAROUSEL
+
+// MOBILE CAROUSEL
+@media (max-width: 576px) {
+    .intro-carousel .carousel-inner .carousel-item img{
+        height: 40vh !important;
+        width: 100%;
+    }
+}
+
+.intro-carousel{
+
+    .carousel-item img{
+        height: 85vh;
+        width: 100%;
+    }
+
+    .carousel-indicators {
+
+        button{
+            border-radius: 150px;
+            height: 25px;
+            display: inline-block;
+        }
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        height: 100px;
+        width: 300px;
+        background-size: 100%, 100%;
+    }   
+
+    .carousel-item .carousel-caption{
+
+        h5{
+            font-size: 55px;
+            text-transform: uppercase;
+            text-shadow: 0px 5px 5px black;
+        }
+
+        p{
+            font-size: 25px;
+            @extend h5;
+        }
+    }
+
+}
+
+// MATRICULA
+
+@media (max-width: 576px) {
+    .card-matricula{
+        margin: auto !important;
+    }
+}
+.card-matricula{
+    margin-left: 3%;
+    margin-bottom: 20px;
+    
+    img{
+        height: 200px;
+        width: 100%;
+    }
+
+    p{
+        text-align: center;
+    }
+}
+
+// NOTÍCIAS
+@media (max-width: 576px) {
+    .card-news {
+        width: 20rem;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
+
+.container h3{
+    font-size: 35px;
+}
+
+
+a{
+    &:hover{
+        opacity: .5;
+        transition: .5s;
+    }
+
+    .card-news{
+        border: 3px solid $blue;
+
+        img{
+            height: 300px;
+        }
+    }
+}
+
+
+// FOOTER
+footer {
+    margin-top: 300px;
+
+    li{
+        font-size: 20px; 
+    }
+}
+
+// ------- FEITO POR JARDEL DA SILVA -------
+
+h3.pgColegioH3 {
+    background-color: $blue;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+p.pgColegioP {
+    padding-left: 10px;
+}
+
+.pgColegioImg {
+    padding: 20px 20px 20px 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.pgColegioImgHistoria {
+    width: 50%;
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+// ------- FEITO POR BRUNO MELO -------]
+#btn15{
+    background-color: rgb(40, 75, 99);
+    color: white;
+    max-width: 30%;
+ }
+ 
+ @media screen and (min-width:990px) {
+ .grid-container2{
+     grid-gap: 5px;
+     display: grid;
+     margin-top: 80px;
+     margin: 80px;
+ }
+ }
+ .grid-container2{
+     margin: 10px;
+ }
+ .pgColegioCabH3{
+     background-color: rgb(40, 75, 99);
+     color: white;
+     text-align:left;
+ } 
+
+//  ------- FEITO POR BRUNO WILKE -------
+.my-button{
+    background-color: #284B63;
+    color: #fff;
+}
+h3.pgColegioH3 {/*Feito por Jardel da Silva*/
+    background-color: #284B63;
+    text-align: center;
+    color: white;
+}
+
+//  ------- FEITO POR GUSTAVO ALVES -------
+#ensinoMedio {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .TiposMedio {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    background-color: #284b63;
+    border: 0;
+  }
+  
+  #paragrafroEnsinoMedio {
+    margin-left: 10%;
+    width: 80%;
+  }
+  
+  .divTelaEm1geral {
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+  
+  .cursoConteudo{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    gap: 30px;
+  }
+  
+  
+  .CabecalhoCurso{
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  
+  .TiposMedioDois{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    background-color: #284b63;
+    border: 0;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+

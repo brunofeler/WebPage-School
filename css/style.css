@@ -1,0 +1,259 @@
+
+/* ----- FEITO POR CAIO NEVES ----- */
+.btn {
+  background-color: #284b63;
+  border: none;
+  text-transform: uppercase;
+}
+
+.button-pesquisar {
+  background-color: #4c6e71;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: auto;
+}
+nav p {
+  font-size: 30px;
+  padding-top: 20px;
+  color: #d9d9d9;
+  display: inline;
+}
+nav .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(217, 217, 217, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+nav .navbar-toggler {
+  border-color: #d9d9d9;
+}
+nav ul li {
+  font-size: 20px;
+  margin-left: 20px;
+}
+nav ul li:hover {
+  transition: ease 0.8s;
+  color: white !important;
+}
+nav ul li a {
+  color: #d9d9d9 !important;
+}
+
+@media (max-width: 576px) {
+  .intro-carousel .carousel-inner .carousel-item img {
+    height: 40vh !important;
+    width: 100%;
+  }
+}
+.intro-carousel .carousel-item img {
+  height: 85vh;
+  width: 100%;
+}
+.intro-carousel .carousel-indicators button {
+  border-radius: 150px;
+  height: 25px;
+  display: inline-block;
+}
+.intro-carousel .carousel-control-prev-icon, .intro-carousel .carousel-control-next-icon {
+  height: 100px;
+  width: 300px;
+  background-size: 100%, 100%;
+}
+.intro-carousel .carousel-item .carousel-caption h5, .intro-carousel .carousel-item .carousel-caption p {
+  font-size: 55px;
+  text-transform: uppercase;
+  text-shadow: 0px 5px 5px black;
+}
+.intro-carousel .carousel-item .carousel-caption p {
+  font-size: 25px;
+}
+
+@media (max-width: 576px) {
+  .card-matricula {
+    margin: auto !important;
+  }
+}
+.card-matricula {
+  margin-left: 3%;
+  margin-bottom: 20px;
+}
+.card-matricula img {
+  height: 200px;
+  width: 100%;
+}
+.card-matricula p {
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .card-news {
+    width: 20rem;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+}
+.container h3 {
+  font-size: 35px;
+}
+
+a:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+a .card-news {
+  border: 3px solid #284b63;
+}
+a .card-news img {
+  height: 300px;
+}
+a .card-news p{
+  font-family:'Playfair Display', serif;
+}
+
+footer {
+  margin-top: 300px;
+}
+footer li {
+  font-size: 25px;
+}
+footer li i{
+  color: black;
+}
+
+/* ----- FEITO POR JARDEL DA SILVA ----- */
+h3.pgColegioH3 {
+  background-color: #284b63;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+p.pgColegioP {
+  padding-left: 10px;
+}
+
+.pgColegioImg {
+  padding: 20px 20px 20px 20px;
+  width: 50%;
+  margin: auto;
+}
+
+.pgColegioImgHistoria {
+  width: 50%;
+  padding-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ----- FEITO POR BRUNO MELO ----- */
+
+#btn15 {
+  background-color: rgb(40, 75, 99);
+  color: white;
+  max-width: 30%;
+}
+
+@media screen and (min-width: 990px) {
+  .grid-container2 {
+    grid-gap: 5px;
+    display: grid;
+    margin-top: 80px;
+    margin: 80px;
+  }
+}
+.grid-container2 {
+  margin: 10px;
+}
+
+.pgColegioCabH3 {
+  background-color: rgb(40, 75, 99);
+  color: white;
+  text-align: left;
+}
+
+/* ----- FEITO POR BRUNO WILKE ----- */
+.my-button {
+  background-color: #284B63;
+  color: #fff;
+}
+
+h1.pgColegioH3 { /*Feito por Jardel da Silva*/
+  background-color: #284B63;
+  text-align: center;
+  color: white;
+}
+
+#ensinoMedio {
+  padding: 0;
+  width: 100%;
+  background-color: #284b63;
+  border: 0;
+  color: white;
+  text-align: center;
+}
+
+.ensinoMedioCursos {
+  width: 800px;
+  display: inline-block;
+  margin-left: 50px;
+}
+.formContent{
+  padding: 20px 10px;
+}
+
+/* ----- FEITO POR GUSTAVO ALVES ----- */
+#ensinoMedio {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.TiposMedio {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  background-color: #284b63;
+  border: 0;
+}
+
+#paragrafroEnsinoMedio {
+  margin-left: 10%;
+  width: 80%;
+}
+
+.divTelaEm1geral {
+  width: 80%;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.cursoConteudo{
+  margin-left: 10%;
+  width: 80%;
+  display: flex;
+  gap: 30px;
+}
+
+
+.CabecalhoCurso{
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+.TiposMedioDois{
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  background-color: #284b63;
+  border: 0;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}

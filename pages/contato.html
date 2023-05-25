@@ -1,0 +1,62 @@
+<!-- FEITO POR BRUNO MELO -->
+<form class="" onsubmit="questao()">
+  <div class="pgColegioCabH3">
+    <h1 class="pgClegioH3 p-2 mt-2 text-center">Encaminhe sua dúvida</h1>
+  </div>
+
+  <div class="grid-container2">
+    <div class="m-10">
+      <label for="exampleInputEmail1" class="form-label" required>Primeiro Nome</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    </div>
+
+    <div class="m-10">
+      <label for="exampleInputPassword1" class="form-label" required>Último Nome</label>
+      <input type="text" class="form-control" id="exampleInputPassword1"/>
+    </div>
+
+    <div class="m-10">
+      <label for="phone" class="form-label">Número de telefone</label>
+      <input type="tel" maxlength="14" data-js="phone" class="form-control" id="phone" required/>
+    </div>
+
+    <div class="m-10">
+      <label for="exampleInputEmail1" class="form-label">Endereço de e-mail</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required/>
+      <div id="emailHelp" class="form-text">
+        Nós não vamos compartilhar seu e-mail e telefone com ninguém.
+      </div>
+    </div>
+
+    <div class="m-10">
+      <label for="exampleInputEmail1" class="form-label">Nível de Ensino</label>
+      <select class="form-select" id="floatingSelect" aria-label="Floating label select example" required>
+        <option selected>Selecione o nível</option>
+        <option value="1">Ensino Básico</option>
+        <option value="2">Ensino Médio</option>
+        <option value="3">Ensino Bilíngue</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Assunto</label>
+      <input type="text" class="form-control" id="exampleInputPassword1"/>
+    </div>
+
+    <div class="mb-3">
+      <label for="floatingTextarea2">Dúvida</label>
+      <textarea class="form-control" placeholder="Escreva aqui sua dúvida que vamos te ajudar o mais breve possível" id="floatingTextarea2" style="height: 100px"></textarea>
+    </div>
+
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1" required/>
+      <label class="form-check-label" for="exampleCheck1">Aceito ser contatado pela instituição em meus dados de contato informados neste formulário.</label>
+    </div>
+
+    <div>
+      <button type="submit" class="btn my-button" id="btn15">
+        Enviar minha dúvida
+      </button>
+    </div>
+  </div>
+</form>
